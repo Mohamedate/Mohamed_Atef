@@ -1,5 +1,7 @@
 
-AOS.init();
+AOS.init({
+    once: true,
+}) 
 /* ================ 
 Show menu
 =================*/
