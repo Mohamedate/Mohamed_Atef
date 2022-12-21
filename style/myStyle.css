@@ -335,7 +335,7 @@ Home
     border-radius: 50%;
 }
 .home-social-link img:hover { 
-    animation: ani-skills .6s;
+    animation: ani-skills .6s infinite;
 }
 .home-social-link:hover { 
     color: var(--title-color);
@@ -410,6 +410,10 @@ border-radius: .5rem;
 }
 .home-info-desc svg { 
     margin-right: .5rem;
+}
+.home-info-desc svg:last-of-type { 
+    animation: contact-inim .2s linear infinite alternate;
+
 }
 .home-info-number { 
     font-size: var(--h3-font-size);
@@ -865,6 +869,9 @@ z-index: 20;
 /*---------
 contact
 -----------*/
+.contact { 
+    position: relative;
+}
 .contact-container { 
     gap: 3.5rem 0;
 }
@@ -933,14 +940,14 @@ footer
     gap: 0 1.5rem;
 }
 .footer-social img { 
-    width: 1.5rem;
+    width: 2rem;
 }
 .footer-social .githup { 
     background-color: #fff;
     border-radius: 50%;
 }
 .footer-social img:hover { 
-    animation: ani-skills .6s;
+    animation: ani-skills .6s infinite;
 }
 .footer-copy { 
     margin-top: 5rem;
@@ -1128,14 +1135,8 @@ scroll button
         height: 360px;
         left: -5px;
     }
-    .projects-container .swiper-slide { 
-        margin-bottom: 3rem;
-    }
     .testimonial-container { 
         width: 600px;
-    }
-    .testimonial-container .swiper-slide { 
-        margin-bottom: 6rem;
     }
     .testimonial-des { 
         font-size: var(--h2-font-size);
@@ -1169,7 +1170,6 @@ scroll button
     .section-subtitle { 
         margin-bottom: 5rem;
     }
-   
 }
 .background-header { 
     box-shadow: 0 4px 20px hsla(207, 24%, 35%, .1);
