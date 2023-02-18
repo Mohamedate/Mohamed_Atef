@@ -352,7 +352,6 @@ Home
 }
 .home-info > .problem-skills .image img { 
     max-width: 73px;
-    background-color: black;
     border-radius: 10px;
 }
 .home-info > .problem-skills:nth-child(1) .image img { 
