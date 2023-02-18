@@ -310,11 +310,10 @@ Home
 .home-profile { 
     width: 200px;
     height: 200px;
-    /* background: var(--gradient-color); */
     background-image: url(../images/myphoto.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     border-radius: 50%;
     overflow: hidden;
 }
