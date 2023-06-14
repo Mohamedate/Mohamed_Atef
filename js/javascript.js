@@ -54,52 +54,6 @@ filterButton.forEach((li) => {
 })
 
 
-/* ================ 
-testominal
-=================*/
-let testDots = document.getElementById('test-dots').children,
-    testContent = document.getElementById('test-content').children,
-    testLeftArrow = document.getElementsByClassName('next-button-test')[0], 
-    testRightArrow = document.getElementsByClassName('prev-button-test')[0],
-    testSpeed = 4500, 
-    currentSlide = 0, 
-    currentActive = 0, 
-    testTimer;
-    
-window.addEventListener('load', () => { 
-    function playSlide(slide) { 
-        for(let i = 0 ; i < testDots.length; i++) { 
-            testContent[i].classList.remove('active')
-            testContent[i].classList.remove('inactive')
-            testDots[i].classList.remove('active')
-        }
-        if(slide < 0) { 
-            slide = currentSlide = testContent.length - 1
-        }
-        if(slide > testContent.length - 1) { 
-            slide = currentSlide = 0
-        }
-        if(currentActive != currentSlide) { 
-            testContent[currentActive].classList.add('inactive')
-        }
-        testContent[slide].classList.add('active')
-        testDots[slide].classList.add('active')
-        currentActive = currentSlide
-
-        clearTimeout(testTimer)
-        testTimer = setTimeout(function() { 
-            playSlide(currentSlide += 1)
-        }, testSpeed)
-    }
-        testLeftArrow.addEventListener('click', function() { 
-            playSlide(currentSlide += 1)
-        }) 
-        testRightArrow.addEventListener('click', function() { 
-            playSlide(currentSlide -= 1)
-        })
-    playSlide(currentSlide)
-
-})
 
 
 
