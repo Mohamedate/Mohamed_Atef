@@ -1,670 +1,805 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!------------------- my style ------------------->
-    <link rel="stylesheet" href="style/myStyle.css">
+    <link rel="stylesheet" href="style/myStyle.css" />
     <!------------------- icon  ------------------->
-    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="style/all.min.css" />
     <title>Mohamed Atef</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-------------------------- Header ---------------------->
     <header class="header" id="header">
-        <nav class="nav container">
-            <a href="#" class="nav-logo">
-                Mohamed
-            </a>
-            <div class="nav-menu" id="nav-menu">
-                <ul class="nav-list grid">
-                    <li class="nav-item">
-                        <a href="#home" class="nav-link active-link">
-                            <i class="fa-solid fa-house"></i>
-                            Home
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#skills" class="nav-link">
-                            <i class="fa-solid fa-award"></i>
-                            Skills
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#qualification" class="nav-link">
-                            <i class="fa-sharp fa-solid fa-book-open"></i>
-                            Qualification
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#services" class="nav-link">
-                            <i class="fa-sharp fa-solid fa-briefcase"></i>
-                            Services
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#projects" class="nav-link">
-                            <i class="fa-regular fa-image"></i>
-                            Projects
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link">
-                            <i class="fa-regular fa-comment"></i>
-                            Contact
-                        </a>
-                    </li>
-                </ul>
-                <!---- Close button ---->
-                <div class="nav-close" id="nav-close">
-                    <i class="fa-solid fa-xmark"></i>
-                </div>
-            </div>
-            <div class="nav-buttons">
-                <!-- Theme change button -->
-                <div class="light" id="theme-button">
-                    <i class="fa-solid fa-moon change-theme"></i>
-                </div>
-                <!-- Toggle button -->
-                <div class="nav-toggle" id="nav-toggle">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-            </div>
-        </nav>
+      <nav class="nav container">
+        <a href="#" class="nav-logo"> Mohamed </a>
+        <div class="nav-menu" id="nav-menu">
+          <ul class="nav-list grid">
+            <li class="nav-item">
+              <a href="#home" class="nav-link active-link">
+                <i class="fa-solid fa-house"></i>
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">
+                <i class="fa-solid fa-award"></i>
+                Skills
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#qualification" class="nav-link">
+                <i class="fa-sharp fa-solid fa-book-open"></i>
+                Qualification
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">
+                <i class="fa-regular fa-image"></i>
+                Projects
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">
+                <i class="fa-regular fa-comment"></i>
+                Contact
+              </a>
+            </li>
+          </ul>
+          <!---- Close button ---->
+          <div class="nav-close" id="nav-close">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+        <div class="nav-buttons">
+          <!-- Theme change button -->
+          <div class="light" id="theme-button">
+            <i class="fa-solid fa-moon change-theme"></i>
+          </div>
+          <!-- Toggle button -->
+          <div class="nav-toggle" id="nav-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </nav>
     </header>
     <!-------------------------- main ---------------------->
     <main class="main">
-    <!-------------------------- Home ---------------------->
-        <section class="home section" id="home">
-            <img class="image-shape one" src="images/shpaewhite.svg" alt="shape">
-            <div class="home-container container grid section-border">
-                <div class="home-data grid">
-                    <h1 class="home-title" data-aos="zoom-in-up"  data-aos-duration="1500">
-                        Hi, I'm Mohamed <br>
-                        Frontend Developer <br>
-                        
-                    </h1>
-                    <div class="home-hold grid" data-aos="fade-up" data-aos-duration="1500">
-                        <div class="home-profile">
-                        </div>
-                    </div>
-                    <ul class="home-social">
-                        <li data-aos="fade-right"  data-aos-duration="1500">
-                            <a href="https://www.linkedin.com/in/mohamed-atef-a71194235/" target="_blank" class="home-social-link">
-                                <img src="images/linkedin-icon.svg" alt="linked">
-                            </a>
-                        </li>
-                        <li data-aos="zoom-in-up"  data-aos-duration="1500">
-                            <a href="https://www.facebook.com/profile.php?id=100014950334746" target="_blank" class="home-social-link">
-                                <img src="images/facebook-3-2.svg" alt="face">
-                            </a>
-                        </li>
-                        <li data-aos="fade-left"  data-aos-duration="1500">
-                            <a href="https://github.com/Mohamedate" target="_blank" class="home-social-link">
-                                <img class="githup" src="images/github-icon-1.svg" alt="github">
-
-                            </a>
-                        </li>
-                        
-                    </ul>
-                </div>
-                <!-------------------------- Home 2 ---------------------->
-                <div class="home-info" data-aos="fade-right"  data-aos-duration="1500" >
-                    <div class="problem-skills">
-                        <div class="image">
-                            <img src="https://leetcode.com/_next/static/images/logo-dark-c96c407d175e36c81e236fcfdd682a0b.png" alt="">
-                        </div>
-                        <div class="right">
-                        <p class="home-info-number">
-                            leetcode
-                        </p>
-                        <p class="leader">270+ problems solved</p>
-                        <a href="https://leetcode.com/_Mohamed_Atef/" target="_blank" class="button">visit my profile<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                        </div>
-                    </div>
-                    <div class="problem-skills">
-                        <div class="image">
-                            <img src="https://www.codewars.com/packs/assets/logo.61192cf7.svg" alt="img">
-                        </div>
-                        <div class="right">
-                            <p class="home-info-number">
-                            Top 1.5% in Codewars
-                            </p>
-                        <p class="leader">508+ problems solved</p>
-                        <a href="https://www.codewars.com/users/Mohamed_Atef" target="_blank" class="button">follow me<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                        </div>
-                    </div>
-                    <div class="problem-skills">
-                        <div class="image">
-                            <h1 ><svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle;"><path fill="currentColor" d="M6.2,2.44L18.1,14.34L20.22,12.22L21.63,13.63L19.16,16.1L22.34,19.28C22.73,19.67 22.73,20.3 22.34,20.69L21.63,21.4C21.24,21.79 20.61,21.79 20.22,21.4L17,18.23L14.56,20.7L13.15,19.29L15.27,17.17L3.37,5.27V2.44H6.2M15.89,10L20.63,5.26V2.44H17.8L13.06,7.18L15.89,10M10.94,15L8.11,12.13L5.9,14.34L3.78,12.22L2.37,13.63L4.84,16.1L1.66,19.29C1.27,19.68 1.27,20.31 1.66,20.7L2.37,21.41C2.76,21.8 3.39,21.8 3.78,21.41L7,18.23L9.44,20.7L10.85,19.29L8.73,17.17L10.94,15Z"></path></svg></h1>
-                        </div>
-                        <div class="right">
-                        <p class="home-info-number">
-                            Top 0.04% in css battle
-                        </p>
-                        <p class="leader">130+ problems solved</p>
-                        <a href="https://cssbattle.dev/player/MnJTtdFY2pO4uQ5dPHrO4mf7Mcn2" target="_blank" class="button">follow me<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                        </div>
-                    </div>
-                </div>
-    <!-------------------------- Home 1 ---------------------->
-                <div class="home-info" data-aos="fade-left" data-aos-duration="1500">
-                    <div>
-                        <h3 class="home-info-title">
-                            BIOGRAPHY
-                        </h3>
-                        <p class="home-info-desc">
-                            I am a computer science student with strong front-end skills in HTML, CSS, and JavaScript, I have a solid foundation in web development. I am highly motivated and always looking to learn and improve my skills.
-                        </p>
-                    </div>
-                       <div>
-                        <h3 class="home-info-title">
-                            CONTACT
-                        </h3>
-                        <p class="home-info-desc">
-                            <i class="fas fa-map-marker-alt"></i> Benha, Al Qalyubiyah, Egypt <br>
-                            <i class="fas fa-envelope"></i> dangerous0111592@gmail.com <br>
-                            <i class="fas fa-phone"></i> +201115925784  <br>
-                        </p>
-                       </div>
-                        <div>
-                            <h3 class="home-info-title">
-                                SERVICES
-                            </h3>
-                            <p class="home-info-desc">
-                                Website Design<br>
-                                UI/UX Design<br>
-                                problem solving<br>
-                            </p>
-                        </div>
-                </div>
-    
-                
+      <!-------------------------- Home ---------------------->
+      <section class="home section" id="home">
+        <img class="image-shape one" src="images/shpaewhite.svg" alt="shape" />
+        <div class="home-container container grid section-border">
+          <div class="home-data grid">
+            <h1
+              class="home-title"
+              data-aos="zoom-in-up"
+              data-aos-duration="1500"
+            >
+              Hi &#9995;, I'm Mohamed <br />
+              Junior Front-End Developer &#128187; <br />
+            </h1>
+            <div
+              class="home-hold grid"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
+              <div class="home-profile"></div>
             </div>
-            <img class="image-shape two" src="images/shpaewhite.svg" alt="shape">
-        </section>
-    <!-------------------------- skills ---------------------->
-        <section class="skills section" id="skills">
-            <img class="image-shape one" src="images/shpaewhite.svg" alt="shape">
-            <h2 class="section-title" data-aos="fade-down"  data-aos-duration="1500">Skills</h2>
-            <span class="section-subtitle" data-aos="fade-down" data-aos-duration="1500">My favorite skills</span>
-            <div class="skills-container container grid section-border">
-    <!-------------------------- skills 1 ---------------------->
-                <div class="skills-content"  data-aos="fade-right"  data-aos-duration="1500">
-                    <h3 class="skills-title">
-                        <i class="fas fa-code"></i>
-                        Frontend Developer
-                    </h3>
-                    <div class="skills-info">
-                        <div class="skills-data">
-                            <div class="skills-hold">
-                                <img src="images/html-1.svg" alt="html">
-                            </div>
-                            <h3 class="skills-name">Html</h3>
-                            <span class="skills-subtitle">Intermediate</span>
-                        </div>
-
-                        <div class="skills-data">
-                            <div class="skills-hold">
-                                <img src="images/css-3.svg" alt="css">
-                            </div>
-                            <h3 class="skills-name">CSS</h3>
-                            <span class="skills-subtitle">Advanced</span>
-                        </div>
-
-                        <div class="skills-data">
-                            <div class="skills-hold">
-                                <img src="images/javascript-1.svg" alt="javascript">
-                            </div>
-                            <h3 class="skills-name">Javascript</h3>
-                            <span class="skills-subtitle">Advanced</span>
-                        </div>
-
-                        <div class="skills-data">
-                            <div class="skills-hold">
-                                <img class="react" src="images/react-2.svg" alt="react">
-                            </div>
-                            <h3 class="skills-name">REACT</h3>
-                            <span class="skills-subtitle">Intermediate</span>
-                        </div>
-
-                        <div class="skills-data">
-                            <div class="skills-hold">
-                                <img src="images/github-icon-1.svg" alt="github">
-                            </div>
-                            <h3 class="skills-name">Github</h3>
-                            <span class="skills-subtitle">Intermediate</span>
-                        </div>
-                    </div>
-                </div>
-    <!-------------------------- skills 2 ---------------------->
-                <div class="skills-content"  data-aos="fade-left"  data-aos-duration="1500">
-                    <h3 class="skills-title">
-                        <i class="fa-solid fa-desktop"></i>
-                        Programming skills
-                    </h3>
-                    <div class="skills-info">
-                         <div class="skills-data">
-                            <div class="skills-hold">
-                                <i class="fas fa-code"></i>
-                            </div>
-                            <h3 class="skills-name">Problem solving</h3>
-                            <span class="skills-subtitle">Advanced</span>
-                        </div>
-
-                        <div class="skills-data">
-                            <div class="skills-hold">
-                                <img class="sql" src="images/microsoft-sql-server-1.svg" alt="sql">
-                            </div>
-                            <h3 class="skills-name">SQL Server</h3>
-                            <span class="skills-subtitle">Intermediate</span>
-                        </div>
-
-                        <div class="skills-data">
-                            <div class="skills-hold">
-                                <img src="images/java-4.svg" alt="java">
-                            </div>
-                            <h3 class="skills-name">Java</h3>
-                            <span class="skills-subtitle">Basics</span>
-                        </div>
-
-                        <div class="skills-data">
-                            <div class="skills-hold">
-                                <img src="images/c.svg" alt="c">
-                            </div>
-                            <h3 class="skills-name">C++</h3>
-                            <span class="skills-subtitle">Intermediate</span>
-                        </div>
-
-                        <div class="skills-data">
-                            <div class="skills-hold">
-                                <img src="images/linux-tux-1.svg" alt="linux">
-                            </div>
-                            <h3 class="skills-name">Linux</h3>
-                            <span class="skills-subtitle">Basic</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <img class="image-shape two" src="images/shpaewhite.svg" alt="shape">
-        </section>
-
-    <!-------------------------- Qualification ---------------------->
-        <section class="qualification section" id="qualification">
-            <h2 class="section-title" data-aos="zoom-in-up"  data-aos-duration="1500">Qualification</h2>
-            <span class="section-subtitle" data-aos="zoom-in-up" data-aos-duration="1500">
-                Experience & education
-            </span>
-            <div class="qualification-container container grid section-border">
-    <!-------------------------- Qualification 1---------------------->
-                <div class="qualification-content"   data-aos="fade-right"  data-aos-duration="1500">
-                    <div class="qualification-info">
-                        <div>
-                            <img src="https://media.licdn.com/dms/image/C4D0BAQG-HVaFB9tgBg/company-logo_100_100/0/1581239864966?e=1678924800&v=beta&t=uQbjd6bm4BENVtMVsp62k39Ile3bRfUps99eZi96XdY" alt="photo">
-                            <div class="right">
-                                <h3 class="qualification-name">
-                                    Bachelor In Computer Science
-                                </h3>
-                                <span class="qualification-country">Benha - University</span>
-                                <span class="qualification-year">2020 - 2024</span>
-                                <a href="https://www.facebook.com/BenhaUniversity" target="_blank" class="certificate">my university
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div>
-                            <img src="https://media.licdn.com/dms/image/C4E0BAQGLKj3JHcof0w/company-logo_100_100/0/1589990867649?e=1678924800&v=beta&t=PtotEZRxVqV0GkrwyvE3J-dJPnB8-mZC4EkPhBVgK_E" alt="photo">
-                            <div class="right">
-                                <h3 class="qualification-name">
-                                    JavaScript Algorithms and Data Structures
-                                </h3>
-                                <span class="qualification-country">FreeCodeComp</span>
-                                <span class="qualification-year">October 3, 2022</span>
-                                <a href="https://www.freecodecamp.org/certification/fccfc37d119-243d-4e00-b1ca-138039695b70/javascript-algorithms-and-data-structures" target="_blank" class="certificate">show certificate
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                </a>
-                            </div> 
-                        </div>
-
-                        <div>
-                            <img src="https://media.licdn.com/dms/image/C4E0BAQGLKj3JHcof0w/company-logo_100_100/0/1589990867649?e=1678924800&v=beta&t=PtotEZRxVqV0GkrwyvE3J-dJPnB8-mZC4EkPhBVgK_E" alt="photo">
-                            <div class="right">
-                                <h3 class="qualification-name">
-                                    Responsive Web Design
-                                </h3>
-                                <span class="qualification-country">FreeCodeComp</span>
-                                <span class="qualification-year">March 19, 2022</span>
-                                <a href="https://www.freecodecamp.org/certification/fccfc37d119-243d-4e00-b1ca-138039695b70/responsive-web-design" target="_blank" class="certificate">show certificate
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div>
-                            <img src="https://media.licdn.com/dms/image/C4D0BAQFQr9e68bBOPQ/company-logo_100_100/0/1626275253364?e=1678924800&v=beta&t=chQveSewZbPbfd4oKkqAZGjlsv1VMfZ6nJq9t8ufFPI" alt="photo">
-                            <div class="right">
-                                <h3 class="qualification-name">
-                                    Css Basics to Advanced
-                                </h3>
-                                <span class="qualification-country">Udemy</span>
-                                <span class="qualification-year">July 16, 2022</span>
-                                <a href="https://www.udemy.com/certificate/UC-e7223034-8a94-4473-86a9-c23339608e01/" target="_blank" class="certificate">show certificate
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                </a>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="qualification-content"  data-aos="fade-left"  data-aos-duration="1500">
-                    <div class="qualification-info">
-                        <div>
-                            <img src="https://media.licdn.com/dms/image/C4D0BAQFQr9e68bBOPQ/company-logo_100_100/0/1626275253364?e=1678924800&v=beta&t=chQveSewZbPbfd4oKkqAZGjlsv1VMfZ6nJq9t8ufFPI" alt="photo">
-                            <div class="right">
-                                <h3 class="qualification-name">
-                                    Algorithm Analysis & Design
-                                </h3>
-                                <span class="qualification-country">Udemy</span>
-                                <span class="qualification-year">Feb 19, 2023</span>
-                                <a href="https://www.udemy.com/certificate/UC-d78c9600-1dc2-4a85-8a75-e47b803d3932/" target="_blank"        class="certificate">show certificate
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
-            </div>
-            
-        </section>
-
-    <!-------------------------- Services ---------------------->
-        <section class="services section" id="services">
-            <h2 class="section-title"  data-aos="zoom-in-up"  data-aos-duration="1500">Services</h2>
-            <span class="section-subtitle" data-aos="zoom-in-up"  data-aos-duration="1500">What I Offer</span>
-
-            <div class="services-container container grid section-border">
-                <div class="services-card" data-aos="fade-right"  data-aos-duration="1500">
-                    <i class="fas fa-code"></i>
-                    <h2 class="services-title">
-                        website<br>
-                        Design
-                    </h2>
-
-                    <p class="services-description">
-                        Developed user interfaces with modern Javascript frameworks,HTML5,and CSS3 and we makes your website more interacting for user.</p>
-                    <div class="services-border"></div>
-                </div>
-
-                <div class="services-card" data-aos="zoom-in-up"  data-aos-duration="1500">
-                    <i class="fa-solid fa-pen-nib"></i>
-                    <h2 class="services-title">
-                        UI/UX<br>
-                        Design
-                    </h2>
-
-                    <p class="services-description">
-                        We partner with designers and performance team on designing updates animation on your website and more fun things.</p>
-                    <div class="services-border"></div>
-
-                </div>
-
-                <div class="services-card" data-aos="fade-left"  data-aos-duration="1500">
-                    <i class="fa-solid fa-desktop"></i>
-                    <h2 class="services-title">
-                        Responsive<br>
-                        layout
-                    </h2>
-
-                    <p class="services-description">
-                        Created accessible responsive and functional user interfaces to allow visitors interacting with website.                    </p>
-                    <div class="services-border"></div>
-
-                </div>
-            </div>
-        </section>
-    <!-------------------------- project ---------------------->
-        <section class="projects section" id="projects">
-            <img class="image-shape one" src="images/shpaewhite.svg" alt="shape">
-            <h2 class="section-title" data-aos="zoom-in-up"  data-aos-duration="1500">Projects</h2>
-            <span class="section-subtitle" data-aos="zoom-in-up"  data-aos-duration="1500">Most recent work</span>
-            <ul class="filter-project" data-aos="zoom-in-up"  data-aos-duration="1500">
-                <li data-project=".all" class="active">All</li>
-                <li data-project=".latest">Latest</li>
-                <li data-project=".fun">fun</li>
+            <ul class="home-social">
+              <li data-aos="fade-right" data-aos-duration="1500">
+                <a
+                  href="https://www.linkedin.com/in/mohamed-atef-a71194235/"
+                  target="_blank"
+                  class="home-social-link"
+                >
+                  <img src="images/linkedin-icon.svg" alt="linked" />
+                </a>
+              </li>
+              <li data-aos="zoom-in-up" data-aos-duration="1500">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100014950334746"
+                  target="_blank"
+                  class="home-social-link"
+                >
+                  <img src="images/facebook-3-2.svg" alt="face" />
+                </a>
+              </li>
+              <li data-aos="fade-left" data-aos-duration="1500">
+                <a
+                  href="https://github.com/Mohamedate"
+                  target="_blank"
+                  class="home-social-link"
+                >
+                  <img
+                    class="githup"
+                    src="images/github-icon-1.svg"
+                    alt="github"
+                  />
+                </a>
+              </li>
+              <li data-aos="fade-left" data-aos-duration="1500">
+                <a
+                  href="https://www.sololearn.com/profile/13215436"
+                  target="_blank"
+                  class="home-social-link"
+                >
+                  <img
+                    class="githup"
+                    src="images/sololearn-2.svg"
+                    alt="github"
+                  />
+                </a>
+              </li>
             </ul>
-            <div class="hold-project container section-border ">
-                    <!-------------------------- project 1---------------------->
-                        <div class="projects-content all  latest" data-aos="fade-right"  data-aos-duration="1500">
-                            <img src="images/art_one.png" alt="img">
-                            <div>
-                                <span class="projects-subtitle">Website</span>
-                                <h1 class="projects-title">Art_One</h1>
-                                <a href="https://mohamedate.github.io/artOne/" target="_blank" class="project-button">
-                                view website <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                </a>
-                            </div>
-                        </div>
-
-                        <!-------------------------- project 2---------------------->
-                        <div class="projects-content all latest" data-aos="zoom-in-up"  data-aos-duration="1500">
-                            <img src="images/pointseven.png" alt="img">
-                            <div>
-                                <span class="projects-subtitle">Website</span>
-                                <h1 class="projects-title">Point_Seven</h1>
-                                <a href="https://mohamedate.github.io/pointSeven/" target="_blank" class="project-button">
-                                view website <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                </a>
-                            </div>
-                        </div>
-
-                        <!-------------------------- project 3---------------------->
-                        <div class="projects-content all latest" data-aos="fade-left"  data-aos-duration="1500">
-                            <img src="images/k-shop.png" alt="img">
-                            <div>
-                                <span class="projects-subtitle">Website</span>
-                                <h1 class="projects-title">k-shop</h1>
-                                <a href="https://mohamedate.github.io/hair-products-store/index.html" target="_blank" class="project-button">
-                                view website <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                </a>
-                            </div>
-                        </div>
-
-                        <!-------------------------- project 4---------------------->
-                        <div class="projects-content all fun" data-aos="fade-right"  data-aos-duration="1500">
-                            <img src="images/tecnology.png" alt="img">
-                            <div>
-                                <span class="projects-subtitle">Website</span>
-                                <h1 class="projects-title">Technology website</h1>
-                                <a href="https://mohamedate.github.io/templateFoure/#home" target="_blank" class="project-button">
-                                view website <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!-------------------------- project 5---------------------->
-                        <div class="projects-content all fun" data-aos="zoom-in-up"  data-aos-duration="1500">
-                            <img src="images/e-commerse.jpg" alt="img">
-                            <div>
-                                <span class="projects-subtitle">Website</span>
-                                <h1 class="projects-title">Adidas Shop</h1>
-                                <a href="https://mohamedate.github.io/adidas_shop/" target="_blank" class="project-button">
-                                view website <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!-------------------------- project 6---------------------->
-                        <div class="projects-content all fun" data-aos="fade-left"  data-aos-duration="1500">
-                            <img src="images/happy.png" alt="img">
-                            <div>
-                                <span class="projects-subtitle">Website</span>
-                                <h1 class="projects-title">Happy Birthday Card</h1>
-                                <a href="https://mohamedate.github.io/happy/" target="_blank" class="project-button">
-                                view website <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!-------------------------- project 7---------------------->
-                        <div class="projects-content all fun" data-aos="fade-right"  data-aos-duration="1500">
-                            <img src="images/memorygame.jpg" alt="img">
-                            <div>
-                                <span class="projects-subtitle">Website</span>
-                                <h1 class="projects-title">Memory Game</h1>
-                                <a href="https://mohamedate.github.io/Memory_Game/" target="_blank" class="project-button">
-                                view website <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!-------------------------- project 8---------------------->
-                        <div class="projects-content all fun" data-aos="zoom-in-up"  data-aos-duration="1500">
-                            <img src="images/calculator.png" alt="img">
-                            <div>
-                                <span class="projects-subtitle">Website</span>
-                                <h1 class="projects-title">Calculator App</h1>
-                                <a href="https://mohamedate.github.io/calculator/" target="_blank" class="project-button">
-                                view website <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                </a>
-                            </div>
-                        </div>
+          </div>
+          <!-------------------------- Home 2 ---------------------->
+          <div class="home-info" data-aos="fade-right" data-aos-duration="1500">
+            <div class="problem-skills">
+              <div class="image">
+                <img
+                  src="https://leetcode.com/_next/static/images/logo-dark-c96c407d175e36c81e236fcfdd682a0b.png"
+                  alt=""
+                />
+              </div>
+              <div class="right">
+                <p class="home-info-number">leetcode</p>
+                <p class="leader">307+ problems solved</p>
+                <a
+                  href="https://leetcode.com/_Mohamed_Atef/"
+                  target="_blank"
+                  class="button"
+                  >visit my profile<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i
+                ></a>
+              </div>
             </div>
-            <img class="image-shape two" src="images/shpaewhite.svg" alt="shape">
-        </section>
-    <!-------------------------- testimonial ---------------------->
-    <section class="testimonial section" data-aos="zoom-in-up"  data-aos-duration="1500">
-        <h2 class="section-title">Testimonial</h2>
-        <span class="section-subtitle">my client saying</span>
-        <div class="container section-border">
-            <div class="wrap">
-                <!-- swiper arrows -->
-                <div class="next-button-test">
-                    <i class="fa-solid fa-angle-right"></i>
-                </div>
-                <div class="prev-button-test">
-                    <i class="fa-solid fa-angle-left"></i>
-                </div>
-                <ul class="dots" id="test-dots">
-                    <li class="dot active"></li>
-                    <li class="dot"></li>
-                    <li class="dot"></li>
-                    <li class="dot"></li>
-                    <li class="dot"></li>
-                </ul>
-                <div class="cont" id="test-content">
-                    <div class="active">
-                        <div class="img">
-                            <img src="images/affan.png" alt="img">
-                        </div>
-                        <h2>Mohamed Affan</h2>
-                        <p>
-                            Working with Mohamed is to give a good impression,
-                            He does the work as quickly as possible and is very honest and serious about his work
-                            Really I loved him.
-                        </p>
-                    </div>
-                    <div>
-                        <div class="img">
-                            <img src="images/foad.png" alt="img">
-                        </div>
-                        <h2>Foad Al Kamel</h2>
-                        <p>Working with Mohamed is to give a good impression,
-                            He does the work as quickly as possible and is very honest and serious about his work
-                            Really I loved him.
-                        </p>
-                    </div>
-                    <div>
-                        <div class="img">
-                            <img src="images/affan.png" alt="img">
-                        </div>
-                        <h2>Mohamed Affan</h2>
-                        <p>Working with Mohamed is to give a good impression,
-                            He does the work as quickly as possible and is very honest and serious about his work
-                            Really I loved him.
-                        </p>
-                    </div>
-                    <div>
-                        <div class="img">
-                            <img src="images/shehab.png" alt="img">
-                        </div>
-                        <h2>Shehab Ahmed</h2>
-                        <p>Working with Mohamed is to give a good impression,
-                            He does the work as quickly as possible and is very honest and serious about his work
-                            Really I loved him.
-                        </p>
-                    </div>
-                    <div>
-                        <div class="img">
-                            <img src="images/omer.png" alt="img">
-                        </div>
-                        <h2>Omer Ali</h2>
-                        <p>Working with Mohamed is to give a good impression,
-                            He does the work as quickly as possible and is very honest and serious about his work
-                            Really I loved him.
-                        </p>
-                    </div>
-                </div>
-
-            </div>    
+            <div class="problem-skills">
+              <div class="image">
+                <img
+                  src="https://www.codewars.com/packs/assets/logo.61192cf7.svg"
+                  alt="img"
+                />
+              </div>
+              <div class="right">
+                <p class="home-info-number">Top 1.5% in Codewars</p>
+                <p class="leader">508+ problems solved</p>
+                <a
+                  href="https://www.codewars.com/users/Mohamed_Atef"
+                  target="_blank"
+                  class="button"
+                  >follow me<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i
+                ></a>
+              </div>
+            </div>
+            <div class="problem-skills">
+              <div class="image">
+                <h1>
+                  <svg
+                    width="40"
+                    height="40"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    style="vertical-align: middle"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M6.2,2.44L18.1,14.34L20.22,12.22L21.63,13.63L19.16,16.1L22.34,19.28C22.73,19.67 22.73,20.3 22.34,20.69L21.63,21.4C21.24,21.79 20.61,21.79 20.22,21.4L17,18.23L14.56,20.7L13.15,19.29L15.27,17.17L3.37,5.27V2.44H6.2M15.89,10L20.63,5.26V2.44H17.8L13.06,7.18L15.89,10M10.94,15L8.11,12.13L5.9,14.34L3.78,12.22L2.37,13.63L4.84,16.1L1.66,19.29C1.27,19.68 1.27,20.31 1.66,20.7L2.37,21.41C2.76,21.8 3.39,21.8 3.78,21.41L7,18.23L9.44,20.7L10.85,19.29L8.73,17.17L10.94,15Z"
+                    ></path>
+                  </svg>
+                </h1>
+              </div>
+              <div class="right">
+                <p class="home-info-number">Top 0.04% in css battle</p>
+                <p class="leader">130+ problems solved</p>
+                <a
+                  href="https://cssbattle.dev/player/MnJTtdFY2pO4uQ5dPHrO4mf7Mcn2"
+                  target="_blank"
+                  class="button"
+                  >follow me<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <!-------------------------- Home 1 ---------------------->
+          <div class="home-info" data-aos="fade-left" data-aos-duration="1500">
+            <div>
+              <h3 class="home-info-title">BIOGRAPHY</h3>
+              <p class="home-info-desc">
+                I am a computer science student with strong front-end skills in
+                HTML, CSS, JavaScript, and React I have a solid foundation in
+                web development. I am highly motivated and always looking to
+                learn and improve my skills.
+              </p>
+            </div>
+            <div>
+              <h3 class="home-info-title">CONTACT</h3>
+              <p class="home-info-desc">
+                <i class="fas fa-map-marker-alt"></i> Benha, Al Qalyubiyah,
+                Egypt <br />
+                <i class="fas fa-envelope"></i> mohame.datefh49@gmail.com <br />
+                <i class="fas fa-phone"></i> +201115925784 <br />
+              </p>
+            </div>
+            <div>
+              <h3 class="home-info-title">SERVICES</h3>
+              <p class="home-info-desc">
+                Website Design<br />
+                UI/UX Design<br />
+                problem solving<br />
+              </p>
+            </div>
+          </div>
         </div>
-    </section>
-    <!-------------------------- contact ---------------------->
-    <section class="contact section" id="contact">
-        <img class="image-shape one" src="images/shpaewhite.svg" alt="shape">
-        <h2 class="section-title" data-aos="zoom-in-up"  data-aos-duration="1500">Contact Me</h2>
-        <span class="section-subtitle" data-aos="zoom-in-up"  data-aos-duration="1500">Get in touch</span>
+        <img class="image-shape two" src="images/shpaewhite.svg" alt="shape" />
+      </section>
+      <!-------------------------- skills ---------------------->
+      <section class="skills section" id="skills">
+        <img class="image-shape one" src="images/shpaewhite.svg" alt="shape" />
+        <h2 class="section-title" data-aos="fade-down" data-aos-duration="1500">
+          Skills
+        </h2>
+        <span
+          class="section-subtitle"
+          data-aos="fade-down"
+          data-aos-duration="1500"
+          >My favorite skills</span
+        >
+        <div class="skills-container container grid section-border">
+          <!-------------------------- skills 1 ---------------------->
+          <div
+            class="skills-content"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          >
+            <h3 class="skills-title">
+              <i class="fas fa-code"></i>
+              Frontend Developer
+            </h3>
+            <div class="skills-info">
+              <div class="skills-data">
+                <div class="skills-hold">
+                  <img src="images/html-1.svg" alt="html" />
+                </div>
+                <h3 class="skills-name">Html</h3>
+                <span class="skills-subtitle">Intermediate</span>
+              </div>
+
+              <div class="skills-data">
+                <div class="skills-hold">
+                  <img src="images/css-3.svg" alt="css" />
+                </div>
+                <h3 class="skills-name">CSS</h3>
+                <span class="skills-subtitle">Advanced</span>
+              </div>
+
+              <div class="skills-data">
+                <div class="skills-hold">
+                  <img src="images/javascript-1.svg" alt="javascript" />
+                </div>
+                <h3 class="skills-name">Javascript</h3>
+                <span class="skills-subtitle">Advanced</span>
+              </div>
+
+              <div class="skills-data">
+                <div class="skills-hold">
+                  <img class="react" src="images/react-2.svg" alt="react" />
+                </div>
+                <h3 class="skills-name">REACT</h3>
+                <span class="skills-subtitle">Intermediate</span>
+              </div>
+
+              <div class="skills-data">
+                <div class="skills-hold">
+                  <img src="images/github-icon-1.svg" alt="github" />
+                </div>
+                <h3 class="skills-name">Github</h3>
+                <span class="skills-subtitle">Intermediate</span>
+              </div>
+            </div>
+          </div>
+          <!-------------------------- skills 2 ---------------------->
+          <div
+            class="skills-content"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+          >
+            <h3 class="skills-title">
+              <i class="fa-solid fa-desktop"></i>
+              Programming skills
+            </h3>
+            <div class="skills-info">
+              <div class="skills-data">
+                <div class="skills-hold">
+                  <i class="fas fa-code"></i>
+                </div>
+                <h3 class="skills-name">Problem solving</h3>
+                <span class="skills-subtitle">Advanced</span>
+              </div>
+
+              <div class="skills-data">
+                <div class="skills-hold">
+                  <img
+                    class="sql"
+                    src="images/microsoft-sql-server-1.svg"
+                    alt="sql"
+                  />
+                </div>
+                <h3 class="skills-name">SQL Server</h3>
+                <span class="skills-subtitle">Intermediate</span>
+              </div>
+
+              <div class="skills-data">
+                <div class="skills-hold">
+                  <img src="images/java-4.svg" alt="java" />
+                </div>
+                <h3 class="skills-name">Java</h3>
+                <span class="skills-subtitle">Basics</span>
+              </div>
+
+              <div class="skills-data">
+                <div class="skills-hold">
+                  <img src="images/c.svg" alt="c" />
+                </div>
+                <h3 class="skills-name">C++</h3>
+                <span class="skills-subtitle">Intermediate</span>
+              </div>
+
+              <div class="skills-data">
+                <div class="skills-hold">
+                  <img src="images/linux-tux-1.svg" alt="linux" />
+                </div>
+                <h3 class="skills-name">Linux</h3>
+                <span class="skills-subtitle">Basic</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img class="image-shape two" src="images/shpaewhite.svg" alt="shape" />
+      </section>
+
+      <!-------------------------- Qualification ---------------------->
+      <section class="qualification section" id="qualification">
+        <h2
+          class="section-title"
+          data-aos="zoom-in-up"
+          data-aos-duration="1500"
+        >
+          Qualification
+        </h2>
+        <span
+          class="section-subtitle"
+          data-aos="zoom-in-up"
+          data-aos-duration="1500"
+        >
+          Experience & education
+        </span>
+        <div class="qualification-container container grid section-border">
+          <!-------------------------- Qualification 1---------------------->
+          <div
+            class="qualification-content"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          >
+            <div class="qualification-info">
+              <div>
+                <img src="images/benhaUniversity.webp" alt="photo" />
+                <div class="right">
+                  <h3 class="qualification-name">
+                    Bachelor In Computer Science
+                  </h3>
+                  <span class="qualification-country">Benha - University</span>
+                  <span class="qualification-year">2020 - 2024</span>
+                  <a
+                    href="https://www.facebook.com/BenhaUniversity"
+                    target="_blank"
+                    class="certificate"
+                    >my university
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div>
+                <img src="images/freecodecomp.jfif" alt="photo" />
+                <div class="right">
+                  <h3 class="qualification-name">
+                    JavaScript Algorithms and Data Structures
+                  </h3>
+                  <span class="qualification-country">FreeCodeComp</span>
+                  <span class="qualification-year">October 3, 2022</span>
+                  <a
+                    href="https://www.freecodecamp.org/certification/fccfc37d119-243d-4e00-b1ca-138039695b70/javascript-algorithms-and-data-structures"
+                    target="_blank"
+                    class="certificate"
+                    >show certificate
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div>
+                <img src="images/freecodecomp.jfif" alt="photo" />
+                <div class="right">
+                  <h3 class="qualification-name">Responsive Web Design</h3>
+                  <span class="qualification-country">FreeCodeComp</span>
+                  <span class="qualification-year">March 19, 2022</span>
+                  <a
+                    href="https://www.freecodecamp.org/certification/fccfc37d119-243d-4e00-b1ca-138039695b70/responsive-web-design"
+                    target="_blank"
+                    class="certificate"
+                    >show certificate
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                </div>
+              </div>
+              <div>
+                <img src="images/udemy-3.svg" alt="photo" />
+                <div class="right">
+                  <h3 class="qualification-name">Css Basics to Advanced</h3>
+                  <span class="qualification-country">Udemy</span>
+                  <span class="qualification-year">July 16, 2022</span>
+                  <a
+                    href="https://www.udemy.com/certificate/UC-e7223034-8a94-4473-86a9-c23339608e01/"
+                    target="_blank"
+                    class="certificate"
+                    >show certificate
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="qualification-content"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+          >
+            <div class="qualification-info">
+              <div>
+                <img src="images/udemy-3.svg" alt="photo" />
+                <div class="right">
+                  <h3 class="qualification-name">
+                    Algorithm Analysis & Design
+                  </h3>
+                  <span class="qualification-country">Udemy</span>
+                  <span class="qualification-year">Feb 19, 2023</span>
+                  <a
+                    href="https://www.udemy.com/certificate/UC-d78c9600-1dc2-4a85-8a75-e47b803d3932/"
+                    target="_blank"
+                    class="certificate"
+                    >show certificate
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-------------------------- project ---------------------->
+      <section class="projects section" id="projects">
+        <img class="image-shape one" src="images/shpaewhite.svg" alt="shape" />
+        <h2
+          class="section-title"
+          data-aos="zoom-in-up"
+          data-aos-duration="1500"
+        >
+          Projects
+        </h2>
+        <span
+          class="section-subtitle"
+          data-aos="zoom-in-up"
+          data-aos-duration="1500"
+          >Most recent work</span
+        >
+        <ul
+          class="filter-project"
+          data-aos="zoom-in-up"
+          data-aos-duration="1500"
+        >
+          <li data-project=".all" class="active">All</li>
+          <li data-project=".latest">Latest</li>
+          <li data-project=".fun">fun</li>
+        </ul>
+        <div class="hold-project container section-border">
+          <!-------------------------- project 1---------------------->
+          <div
+            class="projects-content all latest"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          >
+            <img src="images/art_one.png" alt="img" />
+            <div>
+              <span class="projects-subtitle">Website</span>
+              <h1 class="projects-title">Art_One</h1>
+              <a
+                href="https://mohamedate.github.io/artOne/"
+                target="_blank"
+                class="project-button"
+              >
+                view website
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-------------------------- project 2---------------------->
+          <div
+            class="projects-content all latest"
+            data-aos="zoom-in-up"
+            data-aos-duration="1500"
+          >
+            <img src="images/pointseven.png" alt="img" />
+            <div>
+              <span class="projects-subtitle">Website</span>
+              <h1 class="projects-title">Point_Seven</h1>
+              <a
+                href="https://mohamedate.github.io/pointSeven/"
+                target="_blank"
+                class="project-button"
+              >
+                view website
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-------------------------- project 3---------------------->
+          <div
+            class="projects-content all latest"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+          >
+            <img src="images/k-shop.png" alt="img" />
+            <div>
+              <span class="projects-subtitle">Website</span>
+              <h1 class="projects-title">k-shop</h1>
+              <a
+                href="https://mohamedate.github.io/hair-products-store/index.html"
+                target="_blank"
+                class="project-button"
+              >
+                view website
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-------------------------- project 4---------------------->
+          <div
+            class="projects-content all fun"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          >
+            <img src="images/tecnology.png" alt="img" />
+            <div>
+              <span class="projects-subtitle">Website</span>
+              <h1 class="projects-title">Technology website</h1>
+              <a
+                href="https://mohamedate.github.io/templateFoure/#home"
+                target="_blank"
+                class="project-button"
+              >
+                view website
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+          <!-------------------------- project 5---------------------->
+          <div
+            class="projects-content all fun"
+            data-aos="zoom-in-up"
+            data-aos-duration="1500"
+          >
+            <img src="images/e-commerse.jpg" alt="img" />
+            <div>
+              <span class="projects-subtitle">Website</span>
+              <h1 class="projects-title">Adidas Shop</h1>
+              <a
+                href="https://mohamedate.github.io/adidas_shop/"
+                target="_blank"
+                class="project-button"
+              >
+                view website
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+          <!-------------------------- project 6---------------------->
+          <div
+            class="projects-content all fun"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+          >
+            <img src="images/happy.png" alt="img" />
+            <div>
+              <span class="projects-subtitle">Website</span>
+              <h1 class="projects-title">Happy Birthday Card</h1>
+              <a
+                href="https://mohamedate.github.io/happy/"
+                target="_blank"
+                class="project-button"
+              >
+                view website
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+          <!-------------------------- project 7---------------------->
+          <div
+            class="projects-content all fun"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          >
+            <img src="images/memorygame.jpg" alt="img" />
+            <div>
+              <span class="projects-subtitle">Website</span>
+              <h1 class="projects-title">Memory Game</h1>
+              <a
+                href="https://mohamedate.github.io/Memory_Game/"
+                target="_blank"
+                class="project-button"
+              >
+                view website
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+          <!-------------------------- project 8---------------------->
+          <div
+            class="projects-content all fun"
+            data-aos="zoom-in-up"
+            data-aos-duration="1500"
+          >
+            <img src="images/calculator.png" alt="img" />
+            <div>
+              <span class="projects-subtitle">Website</span>
+              <h1 class="projects-title">Calculator App</h1>
+              <a
+                href="https://mohamedate.github.io/calculator/"
+                target="_blank"
+                class="project-button"
+              >
+                view website
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <img class="image-shape two" src="images/shpaewhite.svg" alt="shape" />
+      </section>
+
+      <!-------------------------- contact ---------------------->
+      <section class="contact section" id="contact">
+        <img class="image-shape one" src="images/shpaewhite.svg" alt="shape" />
+        <h2
+          class="section-title"
+          data-aos="zoom-in-up"
+          data-aos-duration="1500"
+        >
+          Contact Me
+        </h2>
+        <span
+          class="section-subtitle"
+          data-aos="zoom-in-up"
+          data-aos-duration="1500"
+          >Get in touch</span
+        >
 
         <div class="contact-container container grid section-border">
-            <a href="tel:+20 1115925784"  target="_blank" class="contact-content" data-aos="fade-right"  data-aos-duration="1500">
-                <i class="fas fa-phone"></i>
-                <h2>Give Me A Call</h2>
-                <p>00201115925784</p>
-            </a>
-            <a href="mailto:dangerous0111592@gmail.com" target="_blank" class="contact-content" data-aos="zoom-in-up"  data-aos-duration="1500">
-                <i class="fas fa-envelope"></i>
-                <h2>Send Me An Email</h2>
-                <p>dangerous0111592@gmail.com </p>
-            </a>
-            <a href="https://wa.me/+201115925784" target="_blank" class="contact-content" data-aos="fade-left"  data-aos-duration="1500">
-                <i class="fab fa-whatsapp"></i>
-                <h2>Message Me</h2>
-                <p>00201115925784</p>
-            </a>
+          <a
+            href="tel:+20 1115925784"
+            target="_blank"
+            class="contact-content"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          >
+            <i class="fas fa-phone"></i>
+            <h2>Give Me A Call</h2>
+            <p>00201115925784</p>
+          </a>
+          <a
+            href="mailto:mohame.datefh49@gmail.com"
+            target="_blank"
+            class="contact-content"
+            data-aos="zoom-in-up"
+            data-aos-duration="1500"
+          >
+            <i class="fas fa-envelope"></i>
+            <h2>Send Me An Email</h2>
+            <p>mohame.datefh49@gmail.com</p>
+          </a>
+          <a
+            href="https://wa.me/+201115925784"
+            target="_blank"
+            class="contact-content"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+          >
+            <i class="fab fa-whatsapp"></i>
+            <h2>Message Me</h2>
+            <p>00201115925784</p>
+          </a>
         </div>
-    </section>
-    <!-------------------------- footer ---------------------->
-    <footer class="footer">
+      </section>
+      <!-------------------------- footer ---------------------->
+      <footer class="footer">
         <div class="footer-container container">
-            <h1 class="footer-title" data-aos="zoom-in-up"  data-aos-duration="1500">Mohamed</h1>
-            <p data-aos="zoom-in-up"  data-aos-duration="1500">Frontend Developer</p>
-            <ul class="footer-list" data-aos="zoom-in-up"  data-aos-duration="1500">
-                <li><a href="#home" class="footer-link">Home</a></li>
-                <li><a href="#skills" class="footer-link">Skills</a></li>
-                <li><a href="#projects" class="footer-link">Projects</a></li>
-            </ul>
-            <ul class="footer-social">
-               <li><a href="https://www.linkedin.com/in/mohamed-atef-a71194235/" target="_blank" class="social-link"><img src="images/linkedin-icon.svg" alt="linked"></a></li>
-                <li><a href="https://www.facebook.com/profile.php?id=100014950334746" target="_blank" class="social-link"><img src="images/facebook-3-2.svg" alt="facebook"></a></li>
-                <li><a href="https://github.com/Mohamedate" target="_blank" class="social-link"><img class="githup" src="images/github-icon-1.svg" alt="github"></a></li>
-            </ul>
-            <div class="footer-copy">
-                Copyrght . All right reserved
-            </div>
+          <h1
+            class="footer-title"
+            data-aos="zoom-in-up"
+            data-aos-duration="1500"
+          >
+            Mohamed
+          </h1>
+          <p data-aos="zoom-in-up" data-aos-duration="1500">
+            Frontend Developer
+          </p>
+          <ul
+            class="footer-list"
+            data-aos="zoom-in-up"
+            data-aos-duration="1500"
+          >
+            <li><a href="#home" class="footer-link">Home</a></li>
+            <li><a href="#skills" class="footer-link">Skills</a></li>
+            <li><a href="#projects" class="footer-link">Projects</a></li>
+          </ul>
+          <ul class="footer-social">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/mohamed-atef-a71194235/"
+                target="_blank"
+                class="social-link"
+                ><img src="images/linkedin-icon.svg" alt="linked"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/profile.php?id=100014950334746"
+                target="_blank"
+                class="social-link"
+                ><img src="images/facebook-3-2.svg" alt="facebook"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/Mohamedate"
+                target="_blank"
+                class="social-link"
+                ><img
+                  class="githup"
+                  src="images/github-icon-1.svg"
+                  alt="github"
+              /></a>
+            </li>
+          </ul>
+          <div class="footer-copy">Copyrght . All right reserved</div>
         </div>
-    </footer>
+      </footer>
 
-    
-
-    <!-------------------------- button scroll up ---------------------->
-    <a href="#" class="scroll-up" id="scroll-up"><i class="fa-solid fa-arrow-up"></i></a>
+      <!-------------------------- button scroll up ---------------------->
+      <a href="#" class="scroll-up" id="scroll-up"
+        ><i class="fa-solid fa-arrow-up"></i
+      ></a>
     </main>
     <!-------------------------- whatsupp icon --------------------------->
     <div id="whatsapp">
-        <a href="https://wa.me/+201115925784" target="_blank" class="whats">
-            <i class="fab fa-whatsapp"></i>
-        </a>
+      <a href="https://wa.me/+201115925784" target="_blank" class="whats">
+        <i class="fab fa-whatsapp"></i>
+      </a>
     </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/all.min.js"></script>
     <script src="js/javascript.js"></script>
-</body>
+  </body>
 </html>
